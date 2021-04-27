@@ -1,0 +1,89 @@
+.contenedorHighlights{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    
+    &__left{
+        background-color: rgb(95, 162, 224);
+        width: 20%;
+        &__box{
+        
+        
+        padding: 10px 30px 50px 50px;
+
+        &--title{
+            text-align: left;
+            color: white;
+            padding: 20px 20px 0px 20px;
+            
+        }
+        &--line{
+            margin: 5px 10px;
+            
+            border: solid 1px white;
+           
+        }
+        &__menu{
+            &__item{
+                &__contenedor{
+                    //border: dotted 3px chocolate;
+                    margin: 50px 0px;
+
+                    &--link{
+                        padding: 20px 0px;
+                        text-decoration: none;
+                        color: white;
+                        
+                    }
+                }
+               
+            }
+        }
+
+        }
+    }
+    &__right{
+        width: 80%;
+        
+        &__box{
+            padding: 20px;
+            display: flex;
+            &--line{
+                border: solid 1px rgb(95, 162, 224);
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+            &__home{
+            
+                width: 70%;
+            }
+            &__headings{
+                padding: 20px;
+                width: 30%;
+                &__cuadros{
+                    margin: 20px;
+                    padding: 30px 10px;
+                    background-color: rgb(129, 123, 123);
+                    color: white;
+                    &__heading{
+                        &--title{
+                            padding-bottom: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    &__contenedor{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: rgb(16, 14, 129);
+        color: white;
+    }
+}
+
